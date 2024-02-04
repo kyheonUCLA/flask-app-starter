@@ -1,4 +1,5 @@
 venv
 __pycache__
 app/static/videos/object_tracking.avi
+app/static/videos/object_tracking.mp4
 .env

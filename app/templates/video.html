@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ video_props.title }}</title>
+</head>
+<body>
+  <div style="text-align:center;">
+  <video width="{{ video_props.width }}" height="{{ video_props.height }}" controls>
+    <source src="{{ video_url }}" type="video/mp4">
+  </video>
+</div>
+</body>
+</html>
